@@ -1,0 +1,60 @@
+{
+    "meta": {
+        "app_id": "org.example.same.identifier.manifest.package",
+        "app_title": "Albergues para peregrinos",
+        "version": 1,
+        "updated": "2022-09-26",
+        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
+        "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
+        "marketplace_url": ""
+    },
+    "content": {
+        "en": {
+            "app": {
+                "theme": {
+                    "brand": "#B11623",
+                    "complementary": "#FAFAFA"
+                },
+                "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/country/city",
+                "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
+                "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
+                "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
+                "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/#get-involved",
+                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+            },
+            "pois": [{
+                    "id": "greenhostel",
+                    "lat": "43.36367791705211",
+                    "lon": "-5.845267273180698",
+                    "type": "hostel",
+                    "name": "Green Hostel",
+                    "images": [
+                        "https://uo276406.github.io/taller-lew/green1.jpg",
+                        "https://uo276406.github.io/taller-lew/green2.jpg"
+                    ],
+                    "description": "Green Hostel",
+                    "more": "Green Hostel, a place for Camino pilgrims",
+                    "urls": [
+                        "https://www.booking.com/hotel/es/green-hostel.es.html?auth_success=1"
+                    ]
+                },
+                {
+                    "id": "hospedería",
+                    "lat": "43.36801925297664",
+                    "lon": "-5.84459647295936",
+                    "type": "hostel",
+                    "name": "La Hospedería",
+                    "images": [
+                        "https://uo276406.github.io/taller-lew/hosp1.jpg",
+                        "https://uo276406.github.io/taller-lew/hosp2.jpg"
+                    ],
+                    "description": "La Hospedería",
+                    "more": "La Hospedería is another place for Camino pilgrims",
+                    "urls": [
+                        "https://www.lahospederiaoviedo.es/"
+                    ]
+                }
+            ]
+        }
+    }
+}
