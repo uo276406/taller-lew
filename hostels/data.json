@@ -53,6 +53,22 @@
                     "urls": [
                         "https://www.lahospederiaoviedo.es/"
                     ]
+                },
+                {
+                    "id": "costana",
+                    "lat": "43.389561263813995",
+                    "lon": "-5.776225071860731",
+                    "type": "hostel",
+                    "name": "La Costana",
+                    "images": [
+                        "https://uo276406.github.io/taller-lew/costana1.jpg",
+                        "https://uo276406.github.io/taller-lew/costana2.jpg"
+                    ],
+                    "description": "La Costana",
+                    "more": "La Costana is another place for Camino pilgrims",
+                    "urls": [
+                        "https://www.alberguelacostana.es/"
+                    ]
                 }
             ]
         }
